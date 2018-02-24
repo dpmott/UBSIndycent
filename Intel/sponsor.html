@@ -1,12 +1,14 @@
+<!DOCTYPE html>
 <html>
   <head>
     <!-- Comment out to close the registration form.  Update the url on the next line before opening the recruitment period.
     <meta HTTP-EQUIV="Refresh" content="0; url=https://goo.gl/forms/7fLYFBvuw0MFJY592">
     -->
     <title>USB Indycent New Member Sponsor Form</title>
+	<script src="/scripts/scripts.js"></script>
   </head>
-  <body>
-    <div id="content" hidden="true" onload="setInterval(onTimerElapsed,2);">
+  <body onload="hideThenShow()">
+    <div id="content">
       <p>Hello, and thanks for taking an interest in sponsoring a new member to the UBS Indycent.
       <p>
       <p>Unfortunately, recruitment period is currently closed.  Please check back a couple of weeks before the next public event.
@@ -14,12 +16,4 @@
       <p>Thanks!
     </div>
   </body>
-
-  <script type="text/javascript">
-    function onTimerElapsed() {
-      var myDiv = document.getElementById('content');
-      myDiv.hidden = false;
-    }
-  </script>
-
 </html>
