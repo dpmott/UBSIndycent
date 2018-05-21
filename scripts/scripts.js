@@ -7,5 +7,5 @@ function hideThenShow() {
     console.log('Showing content', myDiv);
     myDiv.hidden = false;
     myDiv.style.display = 'block';
-  }, 5000);
+  }, 1000);
 }
